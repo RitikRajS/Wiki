@@ -1,0 +1,15 @@
+{% extends "encyclopedia/layout.html" %}
+
+{% block title %}
+    New Entry
+{% endblock %}
+
+{% block body %}
+
+    <h1>{{ results }}</h1>
+
+    <p>Please click 
+        <a href="{% url 'wiki:index' %}">here</a> 
+        to go back to the main page</p>
+
+{% endblock %}

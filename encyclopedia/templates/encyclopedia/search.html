@@ -1,0 +1,24 @@
+{% extends "encyclopedia/layout.html" %}
+
+{% block title %}
+    Results
+{% endblock %}
+
+{% block body %}
+    {% if matches %}
+        <h1>Search Results for {{ query }}</h1>
+        <ul>
+            {% for match in matches %}
+                <li><a href="{% url 'wiki:wiki' title=match %}">{{ match }}</a></li>
+            {% endfor %}
+        </ul>
+    {% else %}
+        <h1>No results founded for {{ query }}</h1>
+
+        <p>Please click 
+            <a href="{% url 'wiki:index' %}">here</a> 
+            to go back to the main page</p>
+
+    {% endif %}
+
+{% endblock %}

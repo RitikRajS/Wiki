@@ -1,0 +1,121 @@
+body {
+    margin: 0;
+    background-color: white;
+    overflow-x: hidden;
+    
+}
+
+* {
+
+    box-sizing: border-box;
+}
+
+
+code {
+    white-space: pre;
+}
+
+h1 {
+    margin-top: 0px;
+    padding-top: 20px;
+}
+
+textarea {
+    height: 90vh;
+    width: 100%;
+}
+
+.main {
+    padding: 10px;
+}
+
+.search {
+    width: 100%;
+    font-size: 15px;
+    line-height: 15px;
+}
+
+.sidebar {
+    background-color: #f0f0f0;
+    height: 100vh;
+    padding: 20px;
+}
+
+.sidebar h2 {
+    margin-top: 5px;
+    text-align: center;
+}
+
+#wiki_logo{
+    display:flex;
+    margin:10px auto;
+    justify-content: center;
+    width:80%;
+}
+
+
+#search_form{
+    border-radius: 5px;
+    width:100%;
+    margin-bottom:10px;
+    padding:5px;
+    border: 1px solid #dfe1e5;
+    background-color: #fff;
+}
+
+
+#search_form:hover, #search_form:focus-within, 
+#title_form:hover, #title_form:focus-within,
+#content_form:hover, #content_form:focus-within {
+    box-shadow: 0 1px 6px rgba(32,33,36,0.28);
+    border-color: rgba(223,225,229,0);  
+}
+
+
+
+.body_container{
+    height:70vh;
+}
+
+
+#title_form{
+    width:50%;
+    border: 1px solid #dfe1e5;
+    background-color: #fff;
+    border-radius: 5px;
+    padding:5px 10px;
+    margin:4px 10px 20px 10px;
+    font-size: 16px;
+}
+
+
+#content_form{
+    display:block;
+    width:90%;
+    border: 1px solid #dfe1e5;
+    background-color: #fff;
+    border-radius: 5px;
+    padding:5px 10px;
+    margin:4px 10px 30px 10px;
+    font-size: 16px;
+    height:40vh;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#button{
+
+    float: right;
+    margin-top: 10px;
+    margin-right:50px;
+    cursor:pointer;
+    border:1px solid #03080e;
+    background-color: #f8f9fa;
+    border-radius: 4px;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+
+#button:hover {
+    box-shadow: 0 1px 6px rgba(32,33,36,0.28);
+    border-color: rgba(223,225,229,0);  
+}
