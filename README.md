@@ -1,1 +1,3 @@
-# CS50W_Project1
+# Wiki
+
+Consists of a replicated wikipedia page using Django, Python, HTML + CSS
