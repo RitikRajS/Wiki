@@ -1,3 +1,3 @@
 # Wiki
 
-Consists of a replicated wikipedia page using Django, Python, HTML + CSS
+Consists of a replicated Wikipedia page using Django, Python, HTML + CSS
